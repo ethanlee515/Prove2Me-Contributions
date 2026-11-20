@@ -2,15 +2,10 @@
 
 This repository collects Lean-checked findings about STOC 2027 submissions and
 their Prove2Me formalizations. For submission 173, we disproved the published
-Lean lemma. For the other four submissions, we proved specific shortcuts in
-the formal models. Those witnesses do not prove the headline theorems or show
-that the papers' claims are false.
-
-The four shortcut ideas fit in one sentence each. Their Lean files are
-120–306 lines, including the machine checks needed to make the ideas precise.
-They establish their points through the formal models without reproducing the
-papers' main arguments. Whether any shortcut yields an accepted proof of a
-headline theorem remains open.
+Lean lemma.
+For the other four submissions, we demonstrate that their formalizations are unfaithful by providing Lean proof scripts that bypass almost the entirety of the papers' arguments.
+The four shortcut ideas fit in one sentence each, with Lean files between
+120–306 lines.
 
 ## Findings at a glance
 
@@ -31,7 +26,7 @@ and [local development guide](DEVELOPMENT.md) for details.
 
 ## Contributors
 
-Project contributors, listed alphabetically by family name:
+Project contributors, listed alphabetically by last name:
 
 - Yu-Fang Chen (Academia Sinica)
 - Kai-Min Chung (Academia Sinica)
