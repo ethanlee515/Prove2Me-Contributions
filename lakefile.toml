@@ -17,3 +17,6 @@ name = "DisproofD17"
 
 [[lean_lib]]
 name = "StatementMatch"
+
+[[lean_lib]]
+name = "Solutions"

@@ -54,6 +54,18 @@ lake build StatementMatch
 lake env lean SourceCandidate173.lean
 ```
 
-The `lake build StatementMatch` run completed successfully with 8711 jobs.
+The final `lake build StatementMatch` run completed successfully with 8712 jobs.
 The only `sorry` warning came from the published Open theorem source. No local
 commit, push, submission, or other external write was made.
+
+## Prepared submission
+
+`Solutions/Sol_MatchIndiff_PublicSM_lemma_D_17.lean` adapts the same proof to
+Prove2Me's required top-level `theorem solution : ¬ (∀ ..., ...)` form. It
+compiles locally with `autoImplicit false`. `StatementMatch.lean` also checks
+that `solution` has the negation of the exact published theorem type. The
+`#print axioms solution` output is `[propext, Classical.choice, Quot.sound]`,
+with no `sorryAx`. The
+prepared public explanation, including joint-discovery credit, is in
+`submission_explanation.md`; `SUBMISSION_DRAFT.md` lists the exact API fields.
+No API key has been used and nothing has been submitted.
