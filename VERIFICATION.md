@@ -56,7 +56,7 @@ lake env lean SourceCandidate173.lean
 
 The final `lake build StatementMatch` run completed successfully with 8712 jobs.
 The only `sorry` warning came from the published Open theorem source. No local
-commit, push, submission, or other external write was made.
+commit or push was made.
 
 ## Prepared submission
 
@@ -68,4 +68,7 @@ that `solution` has the negation of the exact published theorem type. The
 with no `sorryAx`. The
 prepared public explanation, including joint-discovery credit, is in
 `submission_explanation.md`; `SUBMISSION_DRAFT.md` lists the exact API fields.
-No API key has been used and nothing has been submitted.
+The reviewed files were submitted on November 19, 2026, at 9:03 p.m. EST as
+Prove2Me submission `64991a22-68b3-4ed5-866c-5ad07b3e9659` with
+`proof_type=disprove`. The server returned `ACCEPTED`. The API key was used
+only at Prove2Me's token endpoint and was not copied into this repository.
