@@ -1,7 +1,7 @@
 # Submission 173, Lemma D.17: local Lean verification
 
 **Result: the negation of the published Lean statement compiles in the pinned
-environment. No proof was submitted or published.**
+environment. The disproof was accepted by Prove2Me on November 19, 2026.**
 
 ## Sources and environment
 
