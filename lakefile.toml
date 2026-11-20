@@ -20,3 +20,7 @@ name = "StatementMatch"
 
 [[lean_lib]]
 name = "Solutions"
+
+[[lean_lib]]
+name = "Audit"
+globs = ["Audit.+"]
