@@ -1,0 +1,19 @@
+name = "disproof-d17"
+version = "0.1.0"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "0df444a360eaa60ab8c11dca51a86af692955474"
+
+[[lean_lib]]
+name = "Definitions"
+
+[[lean_lib]]
+name = "Theorems"
+
+[[lean_lib]]
+name = "DisproofD17"
+
+[[lean_lib]]
+name = "StatementMatch"
