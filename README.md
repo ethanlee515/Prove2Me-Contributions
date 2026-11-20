@@ -6,6 +6,15 @@ its negation compiles against the exact published statement and pinned
 dependencies. A formal counterexample and a claim about the corresponding
 paper are separate conclusions.
 
+## Contributors
+
+Project contributors, listed alphabetically by family name:
+
+- Yu-Fang Chen (Academia Sinica)
+- Kai-Min Chung (Academia Sinica)
+- Shih-Han Hung (National Taiwan University)
+- Yi Lee (University of Maryland)
+
 ## Case index
 
 | Submission | Statement | Finding | Evidence |
